@@ -1,7 +1,7 @@
 ---
 title: "Eine neue Generation"
 date: 2021-08-10T10:00:11+02:00
-image: "/images/eine-neue-generation/paul-hanaoka-HbyYFFokvm0-unsplash-small.jpg"
+image: "paul-hanaoka-HbyYFFokvm0-unsplash-small.jpg"
 ---
 Wir werben mit *einer neuen Generation der Bibelarbeit*, was hat es damit auf sich?
 

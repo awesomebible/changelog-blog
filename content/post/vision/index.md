@@ -1,6 +1,6 @@
 ---
-title: "Über unsere Vision, unsere Pläne und warum wir hier sind."
-image: "/images/vision/luana-azevedo-DL9y97LJy0A-unsplash.jpg"
+title: "Über unsere Vision, unsere Pläne und warum wir hier sind"
+image: "luana-azevedo-DL9y97LJy0A-unsplash.jpg"
 date: 2021-02-01
 --- 
 Hey! 👋 Ich bin [Benjamin](https://mstdn.social/@hbenjamin)!
@@ -24,7 +24,7 @@ Dann werden wir nach folgendem Release-Plan vorgehen:
 
 1. Phase: Closed-Alpha: Eine begrenzte Anzahl an Testern wird Zugriff auf die Closed-Alpha von my.awesomeBible bekommen. Wir werden die Bugs, die von den Testern eingereicht werden fixen, und sobald my.awesomeBible ohne unerwartete Fehler nutzbar ist gehen wir in die nächste Phase über.
 2. Phase: Open-Beta: Eine unbegrenzte Anzahl an Testern wird Zugriff auf die Open-Beta von my.awesomeBible bekommen. Wir werden die Bugs, die von den Testern eingereicht werden, fixen. Wir werden allgemeinere Qualitätsfixes implementieren und das Userinterface und den Flow generell polishen. 🧼 Wenn so die meisten Dinge gefixt sind, und alles smooth läuft, gehen wir in die dritte Phase über.
-3. Phase: Release: Wir öffnen die Registrierung für alle. Wir veröffentlichen eine Ankündigung auf [awesomeBible.de](https://awesomebible.de).
+3. Phase: Release: Wir öffnen die Registrierung für alle und wir veröffentlichen eine Ankündigung auf [awesomeBible](https://awesomebible.de).
 
 ### Finanzierung
 my.awesomeBible soll an keinem Punkt Gewinn einbringen.
@@ -33,7 +33,7 @@ Geld steht nirgendwo auf unserer Prioritätenliste.
 Das Hosting und die Entwicklung von my.awesomeBible sind allerdings nicht kostenlos.
 Ich habe kein Problem damit die Kosten eigenständig zu tragen - ist ja schließlich mein Projekt - aber es wäre ein Traum daraus ein sich selbst tragendes Projekt zu machen - wie bereits gesagt - erst einmal muss my.awesomeBible fertig werden, dann kann man über Finanzierungsmöglichkeiten nachdenken.
 
-![Screenshot_2021-03-14 my awesomeBible](/images/vision/111076487-bd6b3480-84ec-11eb-8226-ca6ea4157b21.png)
+![Screenshot_2021-03-14 my awesomeBible](111076487-bd6b3480-84ec-11eb-8226-ca6ea4157b21.png)
 
 ## Q: Was ist Eure Vision?
 

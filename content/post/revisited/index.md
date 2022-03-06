@@ -1,7 +1,7 @@
 ---
 title: "my.awesomeBible revisited"
 date: 2021-12-19T15:47:30+01:00
-image: "/images/revisited/feature_image.png"
+image: "feature_image.png"
 ---
 Die Entwicklung von my.awesomeBible hat in letzter Zeit ein wenig stagniert.
 
@@ -23,13 +23,13 @@ Das ging mit dem Tailwind `dark:`-Prefix einfach und schnell.
 
 ~~Jetzt fehlt uns nur noch Comic Sans.~~
 
-![Die Featureübersicht im Darkmode](/images/revisited/Screenshot153522.png)
-![Das FAQ im Darkmode](/images/revisited/Screenshot153609.png)
-![Der Footer im Darkmode](/images/revisited/Screenshot153656.png)
+![Die Featureübersicht im Darkmode](Screenshot153522.png)
+![Das FAQ im Darkmode](Screenshot153609.png)
+![Der Footer im Darkmode](Screenshot153656.png)
 
 * * * 
 
 Mir hat es ziemlich gut getan, mal 2 oder 3 Monate nicht an my.awesomeBible zu arbeiten, und so einen völlig neuen Blick darauf zu bekommen.
-So, dass wars.
+So, das war's.
 
 Hast du Gedanken zu diesem Post oder zum Projekt - schreib uns auf Matrix: [@awesomebible:matrix.org](https://matrix.to/#/@awesomebible:matrix.org) oder tritt unserem [Matrix-Space](https://matrix.to/#/#awesomebible:matrix.org) bei.
