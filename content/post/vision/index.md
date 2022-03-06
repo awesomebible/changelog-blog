@@ -52,6 +52,6 @@ Wir brauchen **Deine** Hilfe!
 Du bist der Nutzer, also solltest Du auch ein Mitspracherecht haben, wenn es um my.awesomeBible geht.
 
 Hier ein paar Wege wie Du uns erreichen kannst:
-- [Tritt der awesomeBible Community](https://matrix.to/#/#awesomeBible:stux.chat?via=stux.chat&via=matrix.org) bei und übergebe uns dein Feedback.
+- [Tritt der awesomeBible Community](https://matrix.to/#/#awesomeBible:matrix.org?via=matrix.org) bei und übergebe uns dein Feedback.
 - Codeberg Issues: Antworte auf einen [bereits existierenden Thread](https://codeberg.org/awesomebible/my/issues), oder [einen neuen](https://codeberg.org/awesomebible/my/issues/new)!
 - Per E-Mail: Schreib [mir eine E-Mail](mailto:benjamin@awesomebible.de). Ich freue mich auf Deine Nachricht.
