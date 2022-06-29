@@ -2,10 +2,9 @@
 title: "Über unsere Vision, unsere Pläne und warum wir hier sind"
 image: "luana-azevedo-DL9y97LJy0A-unsplash.jpg"
 date: 2021-02-01
-aliases = [
-    "/post/vision/",
-    "/p/vision/"
-]
+aliases:
+    - "/post/vision/"
+    - "/p/vision/"
 --- 
 Hey! 👋 Ich bin [Benjamin](https://mstdn.social/@hbenjamin)!
 In diesem Post möchte ich ein bisschen ausschweifend darüber reden, wie my.awesomeBible zustande gekommen ist, was unsere Pläne und Visionen sind und wie es weiter geht.
