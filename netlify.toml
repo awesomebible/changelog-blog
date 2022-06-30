@@ -1,11 +1,9 @@
-
-
 [build]
 publish = "public"
 command = "hugo --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.93.2"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -13,20 +11,20 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.93.2"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
 command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.93.2"
+HUGO_VERSION = "0.101.0"
 
 [context.branch-deploy]
 command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.93.2"
+HUGO_VERSION = "0.101.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
@@ -35,3 +33,51 @@ HUGO_ENABLEGITINFO = "true"
 from = "/npmjs/*"
 to = "/npmjs/"
 status = 200
+
+# Opting your Website out of Google's FLoC Network
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
+[[headers]]
+  for = "/*.mp4"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+  cache-control = '''
+  public, max-age=31536000, s-max-age=86400,
+  '''
