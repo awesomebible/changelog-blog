@@ -1,8 +1,8 @@
 baseurl: https://changelog.awesomebible.de
-languageCode: en-us
+languageCode: de
 theme: stack
 paginate: 5
-title: awesomeBible Changelog
+title: my.awesomeBible Changelog
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
@@ -21,7 +21,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /fav.png
 
     footer:
         since: 2022
@@ -32,8 +32,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 📘
-        # subtitle: 
+        subtitle: Frische Neuigkeiten
         avatar:
             enabled: true
             local: false
@@ -45,7 +44,7 @@ params:
         readingTime: true
         license:
             enabled: true
-            default: Lizensiert unter [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+            default: Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
     comments:
         enabled: true
         provider: cactus
@@ -125,10 +124,19 @@ params:
             host: 
             id: 
     widgets:
-        enabled:
-            - search
-            - archives
-            - tag-cloud
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
 
         archives:
             limit: 5
@@ -172,6 +180,13 @@ menu:
           params:
               newTab: false
               icon: home
+        - identifier: contact
+          name: Kontakt
+          url: "https://awesomebible.de/kontakt/"
+          weight: -90
+          params:
+              newTab: false
+              icon: messages
 
 related:
     includeNewer: true
