@@ -37,7 +37,7 @@ params:
         avatar:
             enabled: true
             local: false
-            src: "https://cdn.libravatar.org/avatar/b919ba47c55d955f81ff6a9871979eac?s=200"
+            src: "/avatar.png"
 
     article:
         math: false
