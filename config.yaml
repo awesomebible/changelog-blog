@@ -180,6 +180,13 @@ menu:
           params:
               newTab: false
               icon: home
+        - identifier: contact
+          name: Kontakt
+          url: "https://awesomebible.de/kontakt/"
+          weight: -90
+          params:
+              newTab: false
+              icon: messages
 
 related:
     includeNewer: true
